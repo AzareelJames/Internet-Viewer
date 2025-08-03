@@ -1,5 +1,5 @@
 const webview = document.createElement(`iframe`);
-webview.src = `https://azareeljames.github.io/console/`;
+webview.src = `https://azareeljames.github.io/SearchEngine-Internet-Viewer/`;
 webview.classList = `webview`;
 var input;
 document.body.appendChild(webview);
@@ -47,4 +47,5 @@ function Search(){
 }
 
 search.onclick = Search;
+
 document.body.appendChild(search);
