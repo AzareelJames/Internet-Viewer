@@ -1,0 +1,27 @@
+body{
+    animation: changingColor 10s infinite alternate;
+}
+.webview{
+    position: absolute;
+    margin: 0;
+    margin-top: -0.599%;
+    margin-left: -0.53%;
+    align-items: center;
+    width: 99.5%;
+    height: 85%;
+}
+
+.search{
+    position: absolute;
+    margin: 0;
+    margin-top: 40%;
+    margin-left: 43%;
+    font-size: 150%;
+    height: 12%;
+    width: 15%;
+}
+
+@keyframes changingColor{
+    0%{background-color: blue;}
+    100%{background-color: #0056b8;}
+}
